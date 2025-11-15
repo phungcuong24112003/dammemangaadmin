@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from "react";
 
-function AuthorManagement() {
+function Author() {
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -337,4 +337,4 @@ function AuthorManagement() {
   );
 }
 
-export default AuthorManagement;
+export default Author;

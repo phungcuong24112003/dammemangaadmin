@@ -1,21 +1,21 @@
 import Sidebar from '../components/Sidebar/Sidebar.jsx';
-import Author from '../components/Author/Author.jsx';
+import MangaDetail from '../components/MangaDetail/MangaDetail.jsx';
 import { Toaster } from "react-hot-toast";
 import './font.css'
 
 
-function AuthorManagement() {
+function MangaDetailManagement() {
     return (
         <div className="flex quicksand-uniquifier">
             <Toaster position="top-right" reverseOrder={false} />
-            <div className="sticky top-0 h-screen z-50">
+            <div className='sticky top-0 h-screen z-50'>
                 <Sidebar />
             </div>
             <div className="flex-1">
-                <Author />
+                <MangaDetail />
             </div>
         </div>
     );
 }
 
-export default AuthorManagement;
+export default MangaDetailManagement;

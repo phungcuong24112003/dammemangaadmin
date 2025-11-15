@@ -26,8 +26,8 @@ const Sidebar = () => {
       label: "Quản Lý Truyện",
       icon: BookOpen,
       submenu: [
-        { id: "truyen", label: "Truyện", path: "/admin/stories" },
-        { id: "tac-gia", label: "Tác Giả", path: "/authormanagement" },
+        { id: "truyen", label: "Truyện", path: "/manga-management" },
+        { id: "tac-gia", label: "Tác Giả", path: "/author-management" },
         { id: "the-loai", label: "Thể Loại", path: "/tagmanagement" },
       ],
     },

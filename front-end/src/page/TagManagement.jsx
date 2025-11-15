@@ -8,7 +8,9 @@ function GustManagement() {
     return (
         <div className="flex quicksand-uniquifier">
             <Toaster position="top-right" reverseOrder={false} />
-            <Sidebar />
+            <div className='sticky top-0 h-screen z-50'>
+                <Sidebar />
+            </div>
             <div className="flex-1">
                 <TagManagmant />
             </div>
