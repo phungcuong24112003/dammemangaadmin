@@ -19,23 +19,23 @@ const Sidebar = () => {
       id: "dashboard",
       label: "Dashboard",
       icon: LayoutDashboard,
-      path: "/dashboard",
+      path: "/admin/dashboard",
     },
     {
       id: "stories",
       label: "Quản Lý Truyện",
       icon: BookOpen,
       submenu: [
-        { id: "truyen", label: "Truyện", path: "/manga-management" },
-        { id: "tac-gia", label: "Tác Giả", path: "/author-management" },
-        { id: "the-loai", label: "Thể Loại", path: "/tagmanagement" },
+        { id: "truyen", label: "Truyện", path: "/admin/manga-management" },
+        { id: "tac-gia", label: "Tác Giả", path: "/admin/author-management" },
+        { id: "the-loai", label: "Thể Loại", path: "/admin/tag-management" },
       ],
     },
     {
       id: "users",
       label: "Quản Lý User",
       icon: Users,
-      path: "/guestmanagement",
+      path: "/admin/guest-management",
     },
   ];
 

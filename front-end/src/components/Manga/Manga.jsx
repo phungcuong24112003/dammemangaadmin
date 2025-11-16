@@ -40,7 +40,7 @@ function MangaManagement() {
   useEffect(() => setCurrentPage(1), [query]);
 
   const goToDetail = (id) => {
-    navigate(`/manga-detail-management/${id}`);
+    navigate(`/admin/manga-detail-management/${id}`);
   };
 
   return (
